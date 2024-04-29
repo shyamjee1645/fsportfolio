@@ -15,6 +15,8 @@ router.get('/', (req, res) => {
   });
 
 });
-
+router.post('/contactme', (req,res) => {
+  res.end(<h1>Done</h1>);
+})
 
 module.exports = router;

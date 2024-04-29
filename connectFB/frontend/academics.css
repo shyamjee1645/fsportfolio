@@ -1,0 +1,39 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.list-unstyled li strong {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.list-unstyled li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
